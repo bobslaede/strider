@@ -1,13 +1,13 @@
-var app = require('./lib/app'),
-    backchannel = require('./lib/backchannel'),
-    common = require('./lib/common'),
-    config = require('./lib/config'),
-    loader = require('strider-extension-loader'),
-    middleware = require('./lib/middleware'),
-    auth = require('./lib/auth')
-    models = require('./lib/models'),
-    websockets = require('./lib/websockets')
-    , pluginTemplates = require('./lib/pluginTemplates')
+var app = require('./lib/app');
+var backchannel = require('./lib/backchannel');
+var common = require('./lib/common');
+var config = require('./lib/config');
+var loader = require('strider-extension-loader');
+var middleware = require('./lib/middleware');
+var auth = require('./lib/auth');
+var models = require('./lib/models');
+var websockets = require('./lib/websockets');
+var pluginTemplates = require('./lib/pluginTemplates');
 
 common.workerMessageHooks = [];
 common.workerMessagePostProcessors = [];
